@@ -1,0 +1,19 @@
+<Page class="page"
+    navigatingTo="onNavigatingTo" 
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+    
+    <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Home"></Label>
+    </ActionBar>
+
+    <StackLayout>
+        <!-- Add your page content here -->
+        <TextField hint="Enter date" 
+        text='' 
+         returnPress="doneTap"
+        class="input input-border"/>
+
+        <Button text="Tap Me!" tap="onTap" class="btn btn-primary btn-active" />
+
+    </StackLayout>
+</Page>
